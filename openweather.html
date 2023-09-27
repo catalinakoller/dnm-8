@@ -52,7 +52,7 @@
                 lugar.innerHTML = tiempo.name;
                 temperatura.innerHTML = Math.round(tiempo.main.temp) + "ºC";
                 if(tiempo.coord.lat >= -27){
-                    document.body.style.background = "#eee url("nortegrandre.webp"); 0 0 no-repeat"
+                    document.body.style.background = url("nortegrandre.webp")
                 } else if(tiempo.coord.lat < -27 && tiempo.coord.lat >= -33){
                     document.body.style.background = "nortegrandre.webp";                    
                 } else if((tiempo.coord.lat < -33 && tiempo.coord.lat >= -37)){
